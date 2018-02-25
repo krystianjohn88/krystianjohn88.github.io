@@ -1,0 +1,15 @@
+/* selektor znacznika */
+p {
+  color:orange;  
+}
+/*selektor id*/
+#id-text {
+    color: blue; 
+    font-size: 22px;
+}
+/* laczenie selektorow*/
+.link, div, span, #title {
+    background-color: yellow;
+    color: green;
+    
+} 
