@@ -8,8 +8,70 @@ p {
     font-size: 22px;
 }
 /* laczenie selektorow*/
-.link, div, span, #title {
-    background-color: yellow;
+.link, span, #title {
+    background-color: red;
     color: green;
     
 } 
+/* selektor - potomek bezposredni */
+#potomek-bezposredni > p{
+    color: chartreuse;
+}
+
+/* selektor wsytkich elementow potomnych */
+
+#lista a {
+    font-weight: bold;
+}
+/* selektor konkretnego elelemntow */
+
+#lista2 li:nth-child(2) {
+    color:  blueviolet;
+    font-size: 20px;
+}
+
+#lista3 li:nth-child(3n+4) {
+    color:  blueviolet;
+    font-size: 20px;
+}
+
+/* selektor bliskiego rodzenstwa */
+
+header h2 + h3 {
+    color: red;
+}
+
+/* selektor rodzenstwa*/
+
+section h2 ~ h3 {
+    color: darkgoldenrod;
+}
+
+/* selektor wykluczajacy */
+
+ul li:not(.last-item){
+    color: coral;
+}
+
+/* selektor atrybutu*/
+
+li a[href="http://google.pl"]{
+    background-color: darkblue;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
