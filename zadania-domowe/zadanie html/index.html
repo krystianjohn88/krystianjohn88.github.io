@@ -8,13 +8,13 @@
    <form action="https://formspree.io/krystianjohn88@gmail.com"
       method="POST">
     <div><label for="imie">Imie:</label></div>
-    <div><input type="text" id="imie"></div>
+    <div><input type="text" id="imie" name="imie"></div>
     <div><label for="nazwisko">Nazwisko:</label></div>
-    <div><input type="text" id="nazwisko"></div>
+    <div><input type="text" id="nazwisko" name="nazwisko"></div>
     <div><label for="mail">Email:</label></div>
-    <div><input type="email" id="mail"></div>
+    <div><input type="email" id="mail" name="email"></div>
     <div><label for="telefon">Telefon:</label></div>
-    <div><input type="tel" id="telefon"></div>
+    <div><input type="tel" id="telefon" name="telefon"></div>
       <div>
     <input type="radio" id="kobieta" value="kobieta" name="wybor">
     <label for="kobieta">Kobieta</label>
@@ -22,8 +22,8 @@
     <label for="mezczyzna">Mężczyzna</label>
       </div><br>
     <label for="zgo">Zgoda na dane osobowe</label>
-    <input type="checkbox" id="zgo"><br><br>
-    <div><textarea rows="10" cols="20" placeholder="wiadomość"></textarea></div> 
+    <input type="checkbox" id="zgo" name="zgoda"><br><br>
+    <div><textarea rows="10" cols="20" placeholder="wiadomość" name="wiadomosc"></textarea></div> 
     <div><input type="submit" value="Wyśli"></div>
     </form>
     
