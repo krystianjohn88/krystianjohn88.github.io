@@ -1,0 +1,42 @@
+.aqua {
+    color: aqua;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+#aboutus {
+    background-color: aqua;
+}
+
+.kwadrat {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.pierwszy {
+    background-color: aqua;
+}
+
+.drugi {
+    background-color: red;
+}
+
+.trzeci {
+    background-color: green;
+}
+
+.czwarty {
+    background-color: gray;
+}
