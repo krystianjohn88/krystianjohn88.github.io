@@ -1,0 +1,19 @@
+.kwadrat {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.drugi {
+    opacity: 0.75;
+}
+
+.trzeci {
+    opacity: 0.5;
+}
+
+.czwarty {
+    opacity: 0.25
+}
