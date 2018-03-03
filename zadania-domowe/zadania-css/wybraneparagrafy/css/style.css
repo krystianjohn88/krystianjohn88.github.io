@@ -1,0 +1,15 @@
+p {
+    width: 100px;
+    height: 100px;
+    background-color:  green;
+}
+
+p:nth-child(3n+2) {
+    background-color: aqua;
+   
+}
+
+p:nth-child(2n +7) {
+    opacity: 0.3
+   
+}
