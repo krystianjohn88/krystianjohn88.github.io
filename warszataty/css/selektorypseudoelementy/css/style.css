@@ -1,0 +1,15 @@
+#p1::before { 
+    content: "przed elementem"; color: red; 
+} 
+
+#p2::after { 
+    content: "po elementem"; color: green; 
+} 
+
+#p3::first-letter { 
+    color: yellow; 
+}
+
+#p4::first-line { 
+    color: orange; 
+}
