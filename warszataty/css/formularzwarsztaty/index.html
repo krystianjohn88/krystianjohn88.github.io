@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zapis na szkolenie</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div id="form"><form action="https://formspree.io/krystianjohn88@gmail.com"
+      method="POST">
+    <label for="imie">Imie:</label>
+    <input type="text" id="imie" name="imie">
+    <label for="nazwisko">Nazwisko:</label>
+    <input type="text" id="nazwisko" name="nazwisko">
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="email">
+    <label for="tel">Telefon:</label>
+    <input type="tel" id="tel" name="telefon">
+    <label for="plec">Wybierz płeć:</label>  
+    <div><input type="radio" id="kobieta" value="kobieta" name="wybor">
+    <label for="kobieta">Kobieta</label></div>
+    <div><input type="radio" id="mezczyzna" value="mezczyzna" name="wybor">
+    <label for="mezczyzna">Mężczyzna</label>
+       </div>
+       <label for="miasto">Wybierz miasto:</label>
+        <select name="miasto" id="miasto">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Kraktow">Kraków</option>
+            <option value="Radom">Ramo</option>
+            <option value="Gdans">Gdansk</option>
+        </select>
+        
+    <br>
+    <label for="wiadomosc">Wiadomość:</label>
+    <textarea name="wiadomosc"></textarea>
+    <input type="checkbox" id="zgo" name="zgoda"> 
+       <div><label for="zgo">Wyrażam zgodę na przetwarzanie danych osobowych</label></div>
+    <input class="button" type="submit" value="Wyśli">
+    </form>
+    </div>
+    
+</body>
+</html>

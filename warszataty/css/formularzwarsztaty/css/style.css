@@ -1,0 +1,107 @@
+
+
+form {
+    color: white;
+    width: 600px;
+    background-color: #213b56;
+    padding: 10px;
+    font-size: 12px;
+}
+
+form input, form select{
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form select, form input[type="text"], form input[type="tel"], form input[type="email"], form textarea {
+    width: 300px;
+    background-color: #2b4a64;
+    color: #fff;
+    border: #2b4a64 1px solid;
+    height: 25px;
+}
+
+form textarea {
+    height: 100px;
+    line-height: normal;
+}
+
+div {
+    display: inline-block;
+    
+}
+ 
+form input[type="checkbox"]+label, form input[type="radio"]+label {
+    display: inline;
+}
+
+form textarea, input[type="text"], input[type="tel"]:active{ 
+    color: white;
+    border: 0px solid;
+}
+form input:focus {
+    background-color: #4e708c;
+    outline: none;
+    border: 1px solid #fff;
+
+}
+
+.button {
+    color: white;
+    background-color: green;  
+    border: 0px;
+    width: 80px;
+    height: 30px;
+}
+
+.button:hover {
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
