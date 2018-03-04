@@ -30,6 +30,9 @@ section h2 span {
     font-weight: 400;
 }
 
+p{
+    line-height: 25px;
+}
 
 #main-nav {
     width: 100%;
@@ -198,6 +201,24 @@ figure figcaption {
     height: 330px;
 }
 
+#portfolio .mask-content-inner {
+    color: #fff;
+    
+}
+
+#portfolio .mask-content-inner h3{
+    margin-top: 15px;
+    margin-bottom: 15px;   
+}
+
+#portfolio .mask-content-inner h4{
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+#portfolio .mask-contet-inner .fa-link:hover{
+    color: green;
+}
 /*
 .portfoliospacja {
     font-size: 0;
