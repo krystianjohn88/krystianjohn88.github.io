@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -9,6 +11,24 @@ body {
     font-weight: 300px;
 }
 
+section{
+    padding:0 50px 100px;
+    width: 100%;
+    background-color: #f9fcfe;
+}
+
+section h2{
+    text-align: center;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+section h2 span {
+    color: #1ac056;
+    font-weight: 400;
+}
 
 
 #main-nav {
@@ -34,11 +54,14 @@ body {
     text-decoration: none;
 }
 
+/* cover przykrywa caly konterner img rosciagajac */
+
 #main-header {
     background-image: url(img/header-background.jpg);
     background-size:cover;
     color:#fff;
 }
+/* ustawienei paddingu ktory nadaje nam wysokosc headera*/
 
 #main-header .header-content {
     padding: 30vh;
@@ -47,17 +70,84 @@ body {
 
 #main-header .header-content h1{
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 50px;
 }
 
-#main-header .header-content span{
+#main-header span{
     color: #1ac056;
 }
+
 #main-header .header-content h4{
     font-weight: 200;
     font-size: 30px;
 }
+
+/*   start section about   */
+
+#about img{
+    max-height: 350px;
+    max-width: 100%;
+    border: 14px #fff solid;
+    border-radius: 15px;
+    
+}
+
+#about figure{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin: 0;
+}
+
+#about div{
+    width: 50%;
+    float: left;
+}
+
+
+
+/*
+#o-mnie {
+    padding: 100px;
+    padding-top: 0;
+}
+#o-mnie h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 30px;
+}
+#o-mnie h4{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 40px;
+}
+
+#avatar {
+    width: ;
+}
+*/
+
+
+
+/*
+#jan-nowak {
+    float: left;
+    width: 30%;
+}
+
+#portfolio {
+    
+}
+
+#portfolio h1{
+    text-align: center;
+    margin: 30px;
+    font-weight: 400;
+}
+*/
 
 
 
