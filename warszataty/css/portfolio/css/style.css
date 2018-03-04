@@ -85,6 +85,11 @@ section h2 span {
 
 /*   start section about   */
 
+#about {
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
 #about img{
     max-height: 350px;
     max-width: 100%;
@@ -106,8 +111,136 @@ section h2 span {
 }
 
 
+/* section Portfolio*/
+
+
+#skills {
+    text-align: center;
+}
+
+#skills .skills-icons figure {
+    display: inline-block;
+    margin: 30px;
+}
+
+/* ---------------------moje wypociny--------------
+#skills {
+	margin: 0;
+	text-align: center;
+    background-color: white;
+}
+
+figure {
+    display: inline-block;
+	margin: 30px;  
+}
+
+
+figure figcaption {
+	text-align: center;
+    margin: 20px;
+    font-weight: 300;
+}
+----------------------------------------- */
+
+/* section portfolio  */
+
+#portfolio .portfolio-items{
+    font-size: 0;
+    text-align: center;
+}
+
+.portfolio-item{
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    font-size:initial;
+}
+
+#portfolio .portfolio-items #portfolio-item-1{
+    background-image: url(img/portfolio1.jpg);
+    background-size: cover;
+    
+}
+
+#portfolio .portfolio-items #portfolio-item-2{
+    background-image: url(img/portfolio2.jpg);
+    background-size: cover;
+    
+}
+
+#portfolio .portfolio-items #portfolio-item-3{
+    background-image: url(img/portfolio3.jpg);
+    background-size: cover;
+    
+}
+
+#portfolio .portfolio-item-mask{
+    opacity: 0;
+    background-color: rgba(42,61,79,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+
+#portfolio .portfolio-item .portfolio-item-mask:hover{
+    opacity: 1;
+}
+
+#portfolio .mask-content{
+    border: 1px solid #fff;
+    margin: 10px;
+    position: relative;
+    height: 330px;
+}
 
 /*
+.portfoliospacja {
+    font-size: 0;
+}
+
+
+.portfoliospacja div{
+    display: inline-block;
+    width: 33%;
+    height: 300px;
+    margin: 0;
+}
+
+#portfolio1 {
+    background-image: url(img/portfolio1.jpg);
+    background-size: cover;
+}
+
+#portfolio2 {
+    background-image: url(img/portfolio2.jpg);
+    background-size: cover;
+}
+
+#portfolio3 {
+    background-image: url(img/portfolio3.jpg);
+    background-size: cover;
+}
+
+#portfolio1:hover {
+background-color: red;
+}
+*/
+
+
+
+/* ---------------------------------------
+#portfolio figure img{
+	width: 100%;
+	border: 2px solid #444;
+}
+----------------------------------------- */
+
+/* ---------------------------------
 #o-mnie {
     padding: 100px;
     padding-top: 0;
@@ -128,7 +261,7 @@ section h2 span {
 #avatar {
     width: ;
 }
-*/
+------------------------------------ */
 
 
 
