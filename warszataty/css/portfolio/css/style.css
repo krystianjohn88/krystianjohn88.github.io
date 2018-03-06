@@ -216,8 +216,8 @@ figure figcaption {
     margin-bottom: 10px;   
 }
 
-#portfolio .mask-contet-inner .fa-link:hover{
-    color: green;
+#portfolio .mask-content-inner .fa-link:hover{
+    color: #1ac056;
 }
 /*
 .portfoliospacja {
