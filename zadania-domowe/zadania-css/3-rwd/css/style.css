@@ -1,0 +1,39 @@
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    color: white;
+}
+
+#image {
+    position: absolute;
+    background-image: url(obrazy/man-1.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+
+}
+h1, h3{
+    display: inline-block;
+}
+
+ h3{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 200;
+    top: 40%;
+    left: 2%;
+}
+
+h1{
+    position: relative;
+    font-size: 35px;
+    font-weight: 400;
+    top: 45%;
+    left: 2%;
+}
