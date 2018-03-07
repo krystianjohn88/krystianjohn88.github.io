@@ -21,6 +21,7 @@
         color: black;
         text-align: center;
         width: 100%;
-        top: 110%;
+        top: 100%;
+        transform: translateY(0);
     }
 }
