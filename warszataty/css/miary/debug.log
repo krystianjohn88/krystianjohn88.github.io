@@ -1,3 +1,6 @@
 [0306/234540.727:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Redbob\Reports\Dump\reports: Odmowa dostêpu. (0x5)
 [0306/234540.727:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
 [0306/234540.727:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Redbob\Reports\Dump\reports: Odmowa dostêpu. (0x5)
+[0307/212036.811:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Redbob\Reports\Dump\reports: Odmowa dostêpu. (0x5)
+[0307/212036.827:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
+[0307/212036.827:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Redbob\Reports\Dump\reports: Odmowa dostêpu. (0x5)

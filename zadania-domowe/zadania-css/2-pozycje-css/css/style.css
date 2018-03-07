@@ -4,6 +4,7 @@
     width: 500px;
     background-color: green;
 }
+
 #kg1, #kg2, #kd1, #kd2 {
     position: absolute;
     display: inline-block;
@@ -11,6 +12,7 @@
     height: 100px;
     background-color: orange;
 }
+
 .kolo1, .kolo2, .kolo3, .kolo4 {
     position: absolute;
     width: 50%;
@@ -19,15 +21,18 @@
     border-width: thin;
     background-color: blue;
     border-radius: 50%;
-}  
+}
+
 .kk1{
    bottom: 0;
     right: 0; 
 }
+
 .kk2 {
     left: 0;
     bottom: 0;
 }
+
 .kk3 {
     top: 0;
     right: 0;
