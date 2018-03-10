@@ -222,19 +222,28 @@ figure figcaption {
 
 /* Kontakt i Formularz*/
  #kontakt{
+     margin: 0;
+     padding: 10px;
+     position: absolute;
     display: inline-block;
     width: 100%;
+    
     background-color: green;
 }
 
 #kontakt-informacje, #kontakt-formularz{
+    position: absolute;
     display: inline-block;
     width: 50%;
-    height: 500px;
+    
+    background-color: red;
+   
 }
 
 #kontakt-formularz {
+    display: block;
     right: 0;
+    
 }
 
 
