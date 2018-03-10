@@ -219,6 +219,25 @@ figure figcaption {
 #portfolio .mask-content-inner .fa-link:hover{
     color: #1ac056;
 }
+
+/* Kontakt i Formularz*/
+ #kontakt{
+    display: inline-block;
+    width: 100%;
+    background-color: green;
+}
+
+#kontakt-informacje, #kontakt-formularz{
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+}
+
+#kontakt-formularz {
+    right: 0;
+}
+
+
 /*
 .portfoliospacja {
     font-size: 0;
