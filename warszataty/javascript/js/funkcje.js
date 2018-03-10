@@ -13,3 +13,13 @@ function wyswietlWKonsoliParam( imie, nazwisko) {
 wyswietlWKonsoliParam( "Adam", "Nowacki");
 wyswietlWKonsoliParam("Krystian", "John");
 wyswietlWKonsoliParam("Kinga", "Korycka");
+
+// zwracanie wartosci przez funkcje
+function obliczPodatek( kwota, procentPodatek ) {
+    var wynik = kwota * ( procentPodatek / 100 );
+    return wynik.toFixed(2);
+}
+
+var obliczenia1 = obliczPodatek( 4990, 23 );
+console.log("Wysokość obliczonego podatku wynosi: " + obliczenia1 );
+
