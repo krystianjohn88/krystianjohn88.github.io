@@ -1,0 +1,20 @@
+#rwd_container {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#rwd_container h1 {
+    font-size: 30px;
+}
+
+#rwd_container .bg_container {
+    height: 200px;
+    border: 2px solid #000;
+    background-image: url(../img/img1.jpg);
+}
+
+#rwd_container p{
+    font-size: 20px;
+    color: blueviolet;
+}
