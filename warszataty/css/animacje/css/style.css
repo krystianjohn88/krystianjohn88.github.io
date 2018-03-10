@@ -1,0 +1,42 @@
+/* -------------------- Transform ------------------ */
+
+body{
+    padding-top: 70px
+}
+
+
+.rotate img{
+    transform: rotate(35deg);
+    transform-origin: 0% 0%;
+}
+
+.translate img {
+    transform: translate(150px, 300px);
+}
+
+.scale img {
+    transform: scale(3);
+}
+
+
+/* ---------------------ANIMACJA------------------ */
+
+@keyframes resize {
+    0%, 100%{
+        height: 300px;
+        opacity: .3;
+    }
+    30%{
+        height: 50px;
+        opacity: 1;
+    }
+    
+}
+
+.animation img{
+    animation-name: resize;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    
+}

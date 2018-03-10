@@ -91,6 +91,7 @@ p{
 #about {
     overflow: hidden;
     padding-bottom: 0;
+    padding-top: 40px;
 }
 
 #about img{
@@ -119,6 +120,7 @@ p{
 
 #skills {
     text-align: center;
+    padding-top: 40px;
 }
 
 #skills .skills-icons figure {
@@ -128,7 +130,9 @@ p{
 
 
 /* section portfolio  */
-
+#portfolio{
+    padding-top: 40px;
+}
 #portfolio .portfolio-items{
     font-size: 0;
     text-align: center;
