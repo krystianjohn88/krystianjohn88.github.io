@@ -44,8 +44,7 @@ console.log(imiona);
 
 console.log(imiona.indexOf('Sandra'));
 
-imiona.slice(1,3);
-console.log(imiona);
+
 
 
 
