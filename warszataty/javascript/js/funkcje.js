@@ -20,6 +20,12 @@ function obliczPodatek( kwota, procentPodatek ) {
     return wynik.toFixed(2);
 }
 
-var obliczenia1 = obliczPodatek( 4990, 23 );
-console.log("Wysokość obliczonego podatku wynosi: " + obliczenia1 );
+/*var obliczenia1 = obliczPodatek( 4990, 23 );
+console.log("Wysokość obliczonego podatku wynosi: " + obliczenia1 );*/
+function wyswietlWynik( wartosc ) {
+    document.write(wartosc);
+}
+var obliczenia = obliczPodatek(1000, 10);
+wyswietlWynik(obliczenia);
+
 
