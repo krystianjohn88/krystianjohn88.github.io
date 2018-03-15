@@ -35,78 +35,49 @@ span {
     100% {opacity: 0;}
 }
 
-.liczba10 {
+.liczba {
     animation-name: odliczanie;
     animation-duration: 1s;
     animation-iteration-count: 1;
 }
 
 .liczba9 {
-    animation-name: odliczanie;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     animation-delay: 1s;
 }
 
 .liczba8 {
-    animation-name: odliczanie;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     animation-delay: 2s;
 }
 
 .liczba7 {
-    animation-name: odliczanie;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     animation-delay: 3s;
 }
 
 .liczba6 {
-    animation-name: odliczanie;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     animation-delay: 4s;
 }
 
 .liczba5 {
-    animation-name: odliczanie;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     animation-delay: 5s;
 }
 
 .liczba4 {
-    animation-name: odliczanie;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     animation-delay: 6s;
 }
 
 .liczba3 {
-    animation-name: odliczanie;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     animation-delay: 7s;
 }
 
 .liczba2 {
-    animation-name: odliczanie;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     animation-delay: 8s;
 }
 
 .liczba1 {
-    animation-name: odliczanie;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
     animation-delay: 9s;
 }
 
 .liczba11 {
-    animation-name: odliczanie;
     animation-duration: 10s;
-    animation-iteration-count: 1;
     animation-delay: 10s;
 }
