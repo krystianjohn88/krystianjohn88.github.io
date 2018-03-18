@@ -9,4 +9,4 @@
 //};
 
 var chackboxOstatni = document.getElementById("wszystkie-zgody").type;
-var chackboxy = document.querySelectorAll('input[type=checkbox]')
+var chackboxy = document.querySelectorAll('input[type=checkbox]');
