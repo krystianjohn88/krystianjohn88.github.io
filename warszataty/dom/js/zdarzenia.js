@@ -47,7 +47,15 @@ title.addEventListener("click", bodyColor);*/
 // usuwanie obslugi zdarzen
 /*title.removeEventListener("click", bodyColor);*/
 
-document.querySelector('.link1').addEventListener('click', function(e){
-    e.preventDefault();
-    console.log("Kliknalem link klasy .link1");
-})
+//document.querySelector('.link1').addEventListener('click', function(e){
+//    e.preventDefault();
+//    console.log("Kliknalem link klasy .link1");
+//})
+
+
+
+
+
+
+
+
