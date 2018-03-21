@@ -41,14 +41,17 @@ img {
 }
 
 .slider-arrows button {
-    position: absolute;
+    position: fixed;
     top: 50%;
     transform: translateY(-50%);
+    font-size: 30px;
+    
 }
 
 .prev-slide {
     position: absolute;
     left: 0;
+    font-size: 20px;
 }
 
 .next-slide {
