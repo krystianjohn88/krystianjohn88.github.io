@@ -20,7 +20,11 @@ $(function(){
    $('.prev-slide, .next-slide').on("click", function(event){
       event.preventDefault();
       console.log('dziala');
-       function slide(slideIndex-1, slideIndex+1);
+       function slide(slideIndex-1, slideIndex+1){
+        
+       
+       };
+       slide(newSlideIdex);
    });
        
     
