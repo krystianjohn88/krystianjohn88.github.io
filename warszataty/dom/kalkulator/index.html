@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <form action="">
+        <input type="number" id="wplata" value="0" min="100">
+           <label for="wplata">w PLN</label><br>
+            
+                
+                    <select name="" id="okres-kapitalizacji">
+                        <option value="12">Miesiecznie</option>
+                        <option value="4">Kwartalnie</option>
+                        <option value="1" selected>Rocznie</option>
+                    </select>
+                    <label for="okres-kapitalizacji">Czśtotliwość kapitalizacji</label><br>
+                    <input type="number" id="ilosc-lat" value="1" min="1">
+                    <label for="ilosc-lat">Ilość lat</label><br>
+                    <input type="number" id="oprocentowanie" value="10" min="0">
+                    <label for="oprocentowanie">Stopa zwrotu w %</label><br>
+                    <input type="checkbox" id="podatek">
+                    <label for="podatek">Uwzględnij podataek Belki 19%</label><br>
+                    <button onclick="oblicz()">Oblicz</button>
+    </form>
+    <div id="wynik"></div>
+<script src="js/kalkulator.js"></script>
+</body>
+</html>
