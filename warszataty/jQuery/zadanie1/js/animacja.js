@@ -36,6 +36,7 @@
 //    }
 //});
 $(function(){
+    debugger;
     var slideShow = $('.slide-show');
     var slideCount = $('.single-slide').length;
     var slideWidth = 100/slideCount;
@@ -68,20 +69,7 @@ $(function(){
             slideIndex = newSlideIndex;
             slideCaption.fadeIn();
         })
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }   
 });
 
 
