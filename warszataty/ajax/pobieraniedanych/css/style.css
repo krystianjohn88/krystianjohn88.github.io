@@ -1,0 +1,12 @@
+button {
+    width: 200px; 
+    height: 200px; 
+    background-color: red; 
+    color: white; 
+    font-size: 20px; 
+    border-radius: 500px;
+}
+
+button:hover{
+    background-color: orangered;
+}
