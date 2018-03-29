@@ -1,0 +1,11 @@
+p{
+    display: inline-block;
+}
+
+i .fa-arrow-down{
+    background-color: red;
+}
+
+i .fa-arrow-up{
+    background-color: green;
+}
