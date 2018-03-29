@@ -1,29 +1,37 @@
 class Ksiazka {
-    construtor(tytul, autor, przeczytana){
+    constructor(tytul, autor, przeczytana){
         this.tytul = tytul;
         this.autor = autor;
         this.przeczytana = przeczytana;
-    };
-    opiszKsiazke(){
-        console.log("Książka ma tytuł "+this.tytul+" autorem jest "+this.autor+" i została "+this.przeczytana);
-    };
-    
-};
+    }
+    opiszKsiazke() {
+        
+        var CzyPrzeczytana;
+        if(this.przeczytana === true){
+            CzyPrzeczytana = "przeczytana";
+        }else{
+            CzyPrzeczytana = "nie przeczytana";
+        };
+        return "Książka ma tytuł "+ this.tytul +" autorem jest "+ this.autor +" i została "+ CzyPrzeczytana;
+    }
+}
 
-var proba = new Ksiazka("takta", "takatk", "dsds");
-var widzmin = {tytul: 'Wiedzmin',
-               autor: 'Sapkowski',
-               przeczytana: true};
+var widzmin = new Ksiazka('Wiedzmin','Sapkowski', true);
 
-var harryPotter = {tytul: 'Harry Potter',
-                   autor: 'Rowling',
-                   przeczytana: false};
+var harryPotter = new Ksiazka('Harry Potter', 'Rowling', false);
 
-var wladcaPierscieni = {tytul: 'Władca Pierścieni',
-                        autor: 'Tolkien',
-                        przeczytana: false};
+var wladcaPierscieni = new Ksiazka('Władca Pierścieni', 'Tolkien', false);
 
-var globalna = [widzmin+harryPotter+wladcaPierscieni];
-console.log(globalna);
+var globalna = [widzmin, harryPotter, wladcaPierscieni];
 
-proba.opiszKsiazke();
+function iloscPrzeczytanych(tablica){
+    var ilePrzeczytanych = 0;
+    for(var i=0; i < tablica.length; i++){
+        console.log(tablica[i].opiszKsiazke());
+        if(tablica[i].przeczytana === true){
+            ++ilePrzeczytanych;
+        } 
+    }
+    console.log("Przeczytanych: "+ ilePrzeczytanych);
+}; 
+iloscPrzeczytanych(globalna);
