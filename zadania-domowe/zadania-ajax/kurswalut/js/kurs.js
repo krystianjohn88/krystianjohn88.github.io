@@ -1,4 +1,4 @@
-var aktualnaCenna = Number($("#kupno").html());
+var aktualnaCenna = Number($("#kupno").html());   //zapisuje do zmiennej aktualny stan kursu ktory wyswietla sie na stronie
 
 function pobierzKurs(event){
     event.preventDefault();
@@ -12,22 +12,22 @@ function pobierzKurs(event){
        $("#kupno").html(kursKupno2);
        $("#sprzedaz").html(kursSprzedaz2);
        
-   
-    if(kursKupno2 > aktualnaCenna){
-       $("#kupnoStrzalka").html(" <i class='fas fa-arrow-up' style='color: green';></i>");
-        $("#sprzedazStrzalka").html(" <i class='fas fa-arrow-up' style='color: green';></i>");
+   //Sprawdzam jak kurs walut sie zmienil czy wzrosl czy zmalal o ile został poraz pierwszy nacisniety button, wyswietli kurs "bez zmian"
+    if(aktualnaCenna == 0){
+        $("#kursbezzmian").html("Klikni ponownie aby sprawdzić czy kurs rośnie czy maleje");
+    }else if(kursKupno2 > aktualnaCenna){
+       $("#kupnoStrzalka").html(" <i class='fas fa-arrow-up'></i>");
+        $("#sprzedazStrzalka").html(" <i class='fas fa-arrow-up'></i>");
+        $("#kursbezzmian").html(" ");
         
        }else if(kursKupno2 < aktualnaCenna) {
-             $("#kupnoStrzalka").html(" <i class='fas fa-arrow-down' style='color: red';></i>");
-             $("#sprzedazStrzalka").html(" <i class='fas fa-arrow-down' style='color: red';></i>");
-           
+             $("#kupnoStrzalka").html(" <i class='fas fa-arrow-down'></i>");
+             $("#sprzedazStrzalka").html(" <i class='fas fa-arrow-down'></i>");
+             $("#kursbezzmian").html(" ");
              }else{
-                 $("#kupnoStrzalka").html(" <strong>Bez Zmian</strong>");
-                 $("#sprzedazStrzalka").html(" <strong>Bez Zmian</strong>");
+                 $("#kursbezzmian").html(" <strong>Bez Zmian! Klikni później</strong>");
+                
              };
-    aktualnaCenna = Number($("#kupno").html());   
-   }) 
-    
-             
+    aktualnaCenna = Number($("#kupno").html());  
+   })          
    }; 
-

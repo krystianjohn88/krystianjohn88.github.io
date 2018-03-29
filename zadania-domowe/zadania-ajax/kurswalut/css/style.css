@@ -1,11 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10px;
+}
+
+body {
+    background-color: #84a5a5;
+}
 p{
     display: inline-block;
 }
 
-i .fa-arrow-down{
-    background-color: red;
+.fa-arrow-down{
+    color: red;
 }
 
-i .fa-arrow-up{
-    background-color: green;
+.fa-arrow-up{
+    color: green;
+}
+
+button {
+    background-color: #97ffff;
+    border: 1px solid #575862;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #29ffb7;
 }

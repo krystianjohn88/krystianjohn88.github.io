@@ -14,6 +14,8 @@ function pobierzDane(event){
       /* $('body').append("<div id='dane-programisty'></div>");
        $('#dane-programisty').html('Dane programisty<br> Imie: ' +imie+ '<br>Nazwisko: '+nazwisko+'<br>Zawód: '+zawod+'<br>Firma: '+firma);*/
        
+       
+       //Dodałem do html section gdzie moge nadpisywac zawartosc dzieki czemu nie tworza mi sie puste div o tym samym id
        $('section').html("<div id='dane-programisty'></div>");
        $('#dane-programisty').html('Dane programisty<br> Imie: ' +imie+ '<br>Nazwisko: '+nazwisko+'<br>Zawód: '+zawod+'<br>Firma: '+firma);
 
