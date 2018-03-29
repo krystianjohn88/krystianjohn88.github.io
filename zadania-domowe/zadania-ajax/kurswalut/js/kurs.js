@@ -1,5 +1,6 @@
 var aktualnaCenna = Number($("#kupno").html());   //zapisuje do zmiennej aktualny stan kursu ktory wyswietla sie na stronie
-
+var iloscKlikniec = 0;
+var sprawdzKtoryText;
 function pobierzKurs(event){
     event.preventDefault();
    $.getJSON(  "https://blockchain.info/pl/ticker",   function (data) {      
@@ -25,9 +26,29 @@ function pobierzKurs(event){
              $("#sprzedazStrzalka").html(" <i class='fas fa-arrow-down'></i>");
              $("#kursbezzmian").html(" ");
              }else{
-                 $("#kursbezzmian").html(" <strong>Bez Zmian! Klikni później</strong>");
-                
+                 switch(sprawdzKtoryText){
+    case 'pierwszytext':
+        $("#kursbezzmian").html(" <strong>Bez Zmian! Klikni później</strong>");
+    break;
+    case 'drugitext':
+        $("#kursbezzmian").html(" <strong>Bez Zmian! Jeszcze chwilę</strong>");
+    break;
+    default:
+        $("#kursbezzmian").html(" <strong>Bez Zmian! Klikni później</strong>");
+}            
              };
     aktualnaCenna = Number($("#kupno").html());  
-   })          
+           
+   })  
+    
+    function liczenieklikniec(){
+        ++iloscKlikniec;
+    };
+    
+    liczenieklikniec();
+    if(iloscKlikniec % 2 == 0){
+       sprawdzKtoryText = 'pierwszytext';
+    }else{
+        sprawdzKtoryText = 'drugitext';
+    };
    }; 
