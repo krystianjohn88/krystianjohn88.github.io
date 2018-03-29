@@ -1,3 +1,9 @@
+var aktualnaCenna = Number($("#kupno").html());
+function staraCena(cena){
+    cena = aktualnaCenna;
+}
+staraCena(aktualnaCenna);
+
 function pobierzKurs(event){
     event.preventDefault();
    $.getJSON(  "https://blockchain.info/pl/ticker",   function (data) {      
@@ -10,21 +16,22 @@ function pobierzKurs(event){
        $("#kupno").html(kursKupno2);
        $("#sprzedaz").html(kursSprzedaz2);
        
-       
-       
-    if(29205 > akutalnaCenna){
-       $("#kupnoStrzalka").html("<i class='fas fa-arrow-up' style='color: green';;></i>");
-        $("#sprzedazStrzalka").html("<i class='fas fa-arrow-up' style='color: green';></i>");
-       }else if(kursKupno < akutalnaCenna) {
-             $("#kupnoStrzalka").html("<i class='fas fa-arrow-down' style='color: red';></i>");
-            $("#sprzedazStrzalka").html("<i class='fas fa-arrow-down' style='color: red';></i>");
+   
+    if(kursKupno2 > aktualnaCenna){
+       $("#kupnoStrzalka").html(" <i class='fas fa-arrow-up' style='color: green';></i>");
+        $("#sprzedazStrzalka").html(" <i class='fas fa-arrow-up' style='color: green';></i>");
+        
+       }else if(kursKupno2 < aktualnaCenna) {
+             $("#kupnoStrzalka").html(" <i class='fas fa-arrow-down' style='color: red';></i>");
+             $("#sprzedazStrzalka").html(" <i class='fas fa-arrow-down' style='color: red';></i>");
+           
              }else{
-                 $("#kupnoStrzalka").html("<i class='fas fa-arrows-alt-v'></i>");
-                 $("#sprzedazStrzalka").html("<i class='fas fa-arrows-alt-v'></i>");
+                 $("#kupnoStrzalka").html(" <strong>Bez Zmian</strong>");
+                 $("#sprzedazStrzalka").html(" <strong>Bez Zmian</strong>");
              };
-       
+    aktualnaCenna = Number($("#kupno").html());   
    }) 
-    var akutalnaCenna = Number($("#kupno").html());
-       console.log(akutalnaCenna);
+    
              
    }; 
+
