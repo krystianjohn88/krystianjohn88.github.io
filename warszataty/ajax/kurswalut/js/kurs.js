@@ -1,8 +1,4 @@
 var aktualnaCenna = Number($("#kupno").html());
-function staraCena(cena){
-    cena = aktualnaCenna;
-}
-staraCena(aktualnaCenna);
 
 function pobierzKurs(event){
     event.preventDefault();
