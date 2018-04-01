@@ -52,6 +52,11 @@
 #portfolio .mask-content{
     height: 36vh;
 }
+    
+#portfolio .mask-content-inner {
+    font-size:3vw; 
+}
+    
 #kontakt, #main-kontakt, #kontakt-informacje, #kontakt-formularz{
     width: 100%;
 }

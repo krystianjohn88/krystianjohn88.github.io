@@ -20,6 +20,11 @@ p{
     color: green;
 }
 
+.fa-caret-up{
+    color: green;
+    font-size: 10px;
+}
+
 button {
     background-color: #97ffff;
     border: 1px solid #575862;
@@ -33,4 +38,11 @@ button:hover{
 
 button:active{
     background-color: aquamarine;
+}
+
+select{
+    font-size: 30px;
+    background-color: #84a5a5;
+    border: 0;
+    font-weight: 600;
 }

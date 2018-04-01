@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="css/fontawesome-all.css">
 </head>
 <body>
-  <h1>Aktualny kurs Bitcoin do PLN</h1>
+  <h1 class="waluta">Aktualny kurs Bitcoin do<select id="jakaWaluta"></select></h1>
   <div>
   <label for="kupno">Kupno:</label><br>
-  <p id="kupno"></p><label for="kupno" id="kupnoStrzalka"></label>
+  <p id="kupno"></p><label id="walutakupno" for="kupno"></label><label for="kupno" id="kupnoStrzalka"></label>
     </div>
   
   <div>
   <label for="sprzedaz">Sprzedaż:</label><br>
-  <p id="sprzedaz"></p><label for="sprzedaz" id="sprzedazStrzalka"></label>
+  <p id="sprzedaz"></p><label id="walutaSprzedaz" for="sprzedaz"></label><label for="sprzedaz" id="sprzedazStrzalka"></label>
       </div>
   <button onclick="pobierzKurs(event)">Pobierz kurs BITCOIN</button>
   <p id="kursbezzmian"></p>
