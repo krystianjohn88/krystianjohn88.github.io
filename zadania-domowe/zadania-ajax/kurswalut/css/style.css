@@ -3,10 +3,14 @@
     padding: 0;
     margin: 10px;
 }
+body{
+    background-image: url(../img/bitcoin.png)
+}
 
-body {
-    background-color: #84a5a5;
+#glowny {
+    background-color: rgba(132, 165, 165, 0.96);
     border: 3px solid;
+    width: 600px;
 }
 p{
     display: inline-block;

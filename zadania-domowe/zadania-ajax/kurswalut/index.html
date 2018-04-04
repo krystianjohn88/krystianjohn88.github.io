@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>Kurs BitCoina</title>
     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/risponsive.css">
     <link rel="stylesheet" href="css/fontawesome-all.css">
 </head>
 <body>
+    <div id='glowny'>
   <h1 class="waluta">Aktualny kurs Bitcoin do<select id="jakaWaluta"></select></h1>
   <div>
   <label for="kupno">Kupno:</label><br>
@@ -19,7 +21,7 @@
       </div>
   <button onclick="pobierzKurs(event)">Pobierz kurs BITCOIN</button>
   <p id="kursbezzmian"></p>
-  
+  </div>
   
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
