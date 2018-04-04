@@ -11,6 +11,7 @@ body{
     background-color: rgba(132, 165, 165, 0.96);
     border: 3px solid;
     width: 600px;
+    border-radius: 10px;
 }
 p{
     display: inline-block;
