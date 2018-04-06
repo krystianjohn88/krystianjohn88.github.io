@@ -1,5 +1,22 @@
 @media (max-width:800px) {
-  #main-nav ul li{
+   #main-nav label{
+        display: block;
+        text-align: right;
+        padding: 20px 40px;
+    }
+    
+    #main-nav ul {
+        display: none;
+    }
+    
+    #main-nav input:checked + ul {
+        display: block;
+       
+    }
+    
+    
+    
+    #main-nav ul li{
     display: block;
     padding: 5px;
 }  
