@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    #contact input{
+    margin-right: auto;
+}
+
+#contact textarea {
+    margin-left: auto;
+    
+}
+
+    }

@@ -6,6 +6,9 @@
     
 }
 
+.radius{
+    border-radius: 200px;
+}
 /* ---------- fonty do sections ---------*/
 #main-nav, h1, button{
     font-family: 'Montserrat', sans-serif;
@@ -15,6 +18,20 @@
     font-family: 'Droid Serif', sans-serif;
     color: gray;
 }
+
+/* ---- Poczatek fontasomwe ----- */
+#services i{
+    color: white;
+    font-size: 100px;
+    margin-top: 20%;
+}
+/*
+#services i:hover{
+    color: #0ee317;
+    font-size: 110px;
+    
+}
+*/
 
 /* _____________________ NAWIGACJA ________________*/
 /*
@@ -39,35 +56,69 @@
     height: 100vh;
     width: 100vw;
 }
+#header div h1, #header div h3, #header button{
+    padding: 10px;
+}
 
 #header button{
     background-color: #5fb1d3;
     color: white;
+    border-color: white;
 }
 
 #header button:hover{
-    background-color:#4c8ba5;
+    background-color:white;
+    border-color: aqua;
+    color:aqua;
+    transition: 1s;
 }
 /*------------- koniec header----------- */
 /*------------ Poczatek SERVICES--------- */
 
 #services-text{
-    padding: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+}
+#services {
+    padding-top: 10vw;
 }
 
-/* ---- Poczatek fontasomwe ----- */
-#services i{
-    color: #5fb1d3;
-    font-size: 100px;
+.row{
+    margin-right:auto;
+    margin-left:auto;
 }
-/*
+
+.kolo{
+    width: 200px;
+    height: 200px;
+    background-color: #5fb1d3;
+    border-radius: 150px;
+    margin: auto;
+}
+
 #services i:hover{
-    color: #0ee317;
-    font-size: 110px;
-    
+    transition-duration: 1s;
+    transform: rotate(180deg);
+    color: #000000;
+    font-size: 150px;
+}
+#kolo:hover{
+    transition-duration: 1s;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+/*
+#services div .radius{
+    background-color: #000003;
+    width: 20%;
+    height: 140px;
+    margin: auto;
 }
 */
 
+/* ------ Koniec SERVICES --------*/
 /* ----- Poczatek PORTFOLIO ---*/
 #portfolio h1{
     margin-top: 140px;
@@ -84,11 +135,59 @@
     
 }
 
-
 /* --------Koniec PORTFOLIO ------*/
+/*-------- Poczatek TEAM ----------- */
+
+#team {
+    padding-top: 10vw;
+}
+
+#team .col-md-12 {
+    padding-bottom: 10vw;
+}
+
+#team img{
+    border-radius: 200px;
+    width: 50%;
+}
+
+.col4{
+    display: inline-block;
+    
+}
+
+#team i{
+    font-size: 50px;
+}
+
+#team i:hover{
+    color: aqua;
+}
+
+.margines{
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+}
+/* ---------- Koniec TEAM -----------*/
+/*----------Poczatek footer ---------*/
+#footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer i{
+    font-size: 30px;
+}
+
+#footer i:hover{
+    color: aqua;
+}
+
+/*--------- Koniec footer -----------*/
 .textcolor{
     color: white;
 }
+
 
 /*
 #portfolio div{
@@ -96,25 +195,49 @@
 }
 */
 
-#cos{
-    
-    height: 25vw;
+#of{
+    overflow: hidden;
 }
 
-#obrazek1{
-    background-image: url(../img/portfolio/box_of_cookies.jpg);
-    background-repeat: no-repeat;
+#obrazek1, #obrazek2, #obrazek3, #obrazek4, #obrazek5, #obrazek6{
     background-size: cover;
-    width: 30vw;
-    height: 25vw;
+    height: 300px;
     
+}
+#obrazek1 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#obrazek2 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#obrazek3 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#obrazek4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#obrazek5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#obrazek6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#obrazek1:hover, #obrazek2:hover, #obrazek3:hover, #obrazek4:hover, #obrazek5:hover, #obrazek6:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
 
 #portfolio .maska{
     opacity: 0;
     background-color: rgba(16, 212, 211, 0.6);
-    width: 30vw;
-    height: 25vw;
+    width: 100%;
+    height: 300px;
     
     transition: all 0.3s ease-in-out;
     
@@ -128,10 +251,68 @@
     color: white;
     font-size: 50px;
 }
+/*---------- Poczatek Contakt ---------------*/
 
+#contactimg {
+    background-image: url(../img/tlociemniejsze.png), url(../img/footer/world-map.jpg);
+    background-repeat: repeat no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#contact {
+    color: white;
+}
+#naglowki-contact{
+    padding: 5vw;
+}
+
+#naglowki-contact h6{
+    color: #e8e8e8;
+}
+
+#buttonform{
+    background-color: #5fb1d3;
+    color: white;
+    border-color: white;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 10vw; 
+}
+
+
+#buttonform:hover{
+    background-color:white;
+    border-color: aqua;
+    color:aqua;
+    transition: 1s;
+}
+
+#contact textarea, #contact input{
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 5px;
+}
+#contact input{
+    height: 50px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
+
+#contact textarea {
+    height: 210px;
+    padding: 10px;
+    margin-left: 0px;
+    
+}
+
+
+/* ----------Koniec Contakt -----------------*/
 
 /* ---------------------ANIMACJA------------------ */
 
+/*
 @keyframes twist {
     0%, 100%{
         
@@ -153,13 +334,40 @@
     
     
 }
+*/
+
+/*
+@keyframes buttom {
+    0%{
+        
+        
+    }
+    100%{
+        background-color: white;
+        color: aqua;
+    }
+    
+}
+
+#header button:hover{
+    animation-name: buttom;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+}
+*/
 
 /* ---------- Koniec ANIMACJA*/
 
 .topcenter{
     position: relative;
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left:45%;
+}
+
+.textcenter{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
 }

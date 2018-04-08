@@ -3,153 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <title>Bootstrap</title>
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" >
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/fontawesome-all.css">
-     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/mojerwd.css">
 </head>
+
 <body>
-<!--   Poczatek section NAVIGACJA -->
-<section id="nawigacja" class="fixed-top">
-<nav id="main-nav" class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#header">Bootstrap Project</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">     
+    <!--   Poczatek section NAVIGACJA -->
+    <section id="nawigacja" class="fixed-top">
+        <nav id="main-nav" class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#header">Bootstrap Project</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">     
        <span class="navbar-toggler-icon"></span>     
        </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  ml-auto w-100 justify-content-end">
-            <li class="nav-item">
-             <a class="nav-link" href="#services">Services</a> 
-             </li>
-            <li class="nav-item"> 
-            <a class="nav-link" href="#portfolio">Portfolio</a> 
-            </li>
-            <li class="nav-item"> 
-            <a class="nav-link" href="#team">Team</a> 
-            </li>
-            <li class="nav-item">
-             <a class="nav-link" href="#contact">Contact</a>
-              </li>
-        </ul>
-    </div>
-</nav>
-</section>
-<!--  Koniec section NAVIGACJA-->
-<!-- -------------------------------------------------------------------- -->
-<!--   Poczatek section HEADER  -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ml-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!--  Koniec section NAVIGACJA-->
+    <!-- -------------------------------------------------------------------- -->
+    <!--   Poczatek section HEADER  -->
     <section id="header">
         <div class="col-12 headimg">
-            <div class="topcenter textcolor"><h3 class='text-center'>Bootstrap, css, js</h3>
-            <h1 class='text-center'>Portfolio najlepsze w internecie</h1>
-            <center><button onclick="przeniesienieDoServices" class="btn">Zobacz wiecej</button></center>
+            <div class="textcolor textcenter">
+                <h3 class='text-center'>Bootstrap, css, js</h3>
+                <h1 class='text-center'>Portfolio najlepsze w internecie</h1>
+                <center><button onclick="przeniesienieDoServices" class="btn">Zobacz wiecej</button></center>
             </div>
         </div>
-        
+
     </section>
-<!--   koniec section HEADER  -->  
-<!-- -------------------------------------------------------------------- --> 
-<!--   Poczatek section SERVICES  -->
+    <!--   koniec section HEADER  -->
+    <!-- -------------------------------------------------------------------- -->
+    <!--   Poczatek section SERVICES  -->
     <section id="services">
-        
-        <div id="services-text" class="col-12 text-center">
+
+        <div id="services-text" class="text-center">
             <h1>SERVICES</h1>
             <h6 class="italic">Lorem ipsum dolor sit amet, consectetur.</h6>
         </div>
-        <div class="row text-center w-100">
-        <div class="col-md-4">
-            <i class="fas fa-briefcase"></i>
-            <label for="teczka"><h3>Web Developer</h3><br><h5 class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti officiis vitae rem.</h5></label>
-        </div>
-        <div class="col-md-4">
-            <i class="fas fa-cloud-download-alt"></i>
-             <label for="teczka"><h3>E-Commerce</h3><br><h5 class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti officiis vitae rem.</h5></label>
-        </div>
-        <div class="col-md-4">
-            <i class="fas fa-comments"></i>
-             <label for="teczka"><h3>WEB Design</h3><br><h5 class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti officiis vitae rem.</h5></label>
-        </div>
-        </div>
-        
-        
-    </section>
-<!--   Koniec section SERVICES  -->
-<!-- -------------------------------------------------------------------- -->
-<!--   Poczatek section PORTFOLIO  -->
-    <section id="portfolio">
-<div class="container">
-  <div class="row">
-   <div class="col-12 text-center">
-    <h1>PORTFOLIO</h1>
-    <h6 class="italic">Lorem ipsum dolor sit amet.</h6>
-</div>
-   <div class="row">
-    <div class="col-md-4 ">
-       <div id="cos">
-        <div id="obrazek1">
-            <div class="maska">
-                <i class="fas fa-crosshairs topcenter"></i>
+        <div class="row text-center container">
+            <div class="col-md-4">
+               <div class="kolo" id="kolo">
+                <i class="fas fa-briefcase "></i>
+                </div>
+                <label for="teczka"><h3>Web Developer</h3><br><h5 class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti officiis vitae rem.</h5></label>
+            </div>
+            <div class="col-md-4">
+                <div class="kolo">
+                    <i class="fas fa-cloud-download-alt"></i>
+                </div>
+                <label for="teczka"><h3>E-Commerce</h3><br><h5 class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti officiis vitae rem.</h5></label>
+            </div>
+            <div class="col-md-4">
+               <div class="kolo">
+                <i class="fas fa-comments"></i>
+                </div>
+                <label for="teczka"><h3>WEB Design</h3><br><h5 class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti officiis vitae rem.</h5></label>
             </div>
         </div>
-        </div>
-        sdfsddsff lorem200
-   </div>
-    <div class="col-md-4">
-        <figure>
-			<img src="img/portfolio/typing_on_laptop.jpg" alt="image 1">
-			<figcaption>Obraz 1. </figcaption>
-		</figure>
-    </div>
-    <div class="col-md-4">
-        <figure>
-			<img src="img/portfolio/chaotic_paint.jpg" alt="image 1">
-			
-			<figcaption>Obraz 1.</figcaption>
-		</figure>
-    </div>
-    <div class="col-md-4">
-        <figure>
-			<img src="img/portfolio/chestnut_on_bracket.jpg" alt="image 1">
-			<figcaption>Obraz 1.</figcaption>
-		</figure>
-    </div>
-    <div class="col-md-4">
-        <figure>
-			<img src="img/portfolio/child_with_blue_paint.jpg" alt="image 1">
-			<figcaption>Obraz 1.</figcaption>
-		</figure>
-    </div>
-    <div class="col-md-4">
-        <figure>
-			<img src="img/portfolio/house_with_blue_doors.jpg" alt="image 1">
-			<figcaption>Obraz 1.</figcaption>
-		</figure>
-    </div>
-        
-    </div>
-</div>
-</div>
+
 
     </section>
-<!--   koniec section PORFOLIO  -->
-<!-- -------------------------------------------------------------------- -->
-<!--   Poczatek section team  -->
-  <section id="team">
-      
-      
-  </section>
-<!--   koniec section team  -->
-<!-- -------------------------------------------------------------------- -->
-<!--   Poczatek section contact  -->
-  <section id="contact">
-      
-      
-  </section>
-  <!--   koniec section contact  -->
-   
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>     
+    <!--   Koniec section SERVICES  -->
+    <!-- -------------------------------------------------------------------- -->
+    <!--   Poczatek section PORTFOLIO  -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>PORTFOLIO</h1>
+                    <h6 class="italic">Lorem ipsum dolor sit amet.</h6>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <figure>
+                            <div id="of">
+                                <div id="obrazek1">
+                                    <div class="maska">
+                                        <i class="fas fa-plus topcenter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <figcaption>
+                            <h4 class="text-center">Tytul obrazka</h3>
+                                <h6 class="italic text-center">text do obrazka</h6>
+                        </figcaption>
+                    </div>
+                    <div class="col-md-4">
+                        <figure>
+                            <div id="of">
+                                <div id="obrazek2">
+                                    <div class="maska">
+                                        <i class="fas fa-plus topcenter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <figcaption>
+                            <h4 class="text-center">Tytul obrazka</h3>
+                                <h6 class="italic text-center">text do obrazka</h6>
+                        </figcaption>
+                    </div>
+
+                    <div class="col-md-4">
+                        <figure>
+                            <div id="of">
+                                <div id="obrazek3">
+                                    <div class="maska">
+                                        <i class="fas fa-plus topcenter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <figcaption>
+                            <h4 class="text-center">Tytul obrazka</h3>
+                                <h6 class="italic text-center">text do obrazka</h6>
+                        </figcaption>
+                    </div>
+
+                    <div class="col-md-4">
+                        <figure>
+                            <div id="of">
+                                <div id="obrazek4">
+                                    <div class="maska">
+                                        <i class="fas fa-plus topcenter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <figcaption>
+                            <h4 class="text-center">Tytul obrazka</h3>
+                                <h6 class="italic text-center">text do obrazka</h6>
+                        </figcaption>
+                    </div>
+
+                    <div class="col-md-4">
+                        <figure>
+                            <div id="of">
+                                <div id="obrazek5">
+                                    <div class="maska">
+                                        <i class="fas fa-plus topcenter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <figcaption>
+                            <h4 class="text-center">Tytul obrazka</h3>
+                                <h6 class="italic text-center">text do obrazka</h6>
+                        </figcaption>
+                    </div>
+
+                    <div class="col-md-4">
+                        <figure>
+                            <div id="of">
+                                <div id="obrazek6">
+                                    <div class="maska">
+                                        <i class="fas fa-plus topcenter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <figcaption>
+                            <h4 class="text-center">Tytul obrazka</h3>
+                                <h6 class="italic text-center">text do obrazka</h6>
+                        </figcaption>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--   koniec section PORFOLIO  -->
+    <!-- -------------------------------------------------------------------- -->
+    <!--   Poczatek section team  -->
+    <section id="team">
+
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1 class="text-center">Poznaj nasz zespół</h1>
+                <h5 class="italic text-center">nasz zespół jest bardzo zgrany</h5>
+            </div>
+            <div class="col-md-4">
+                <img src="img/team/man-1.jpg" alt="image 1">
+                <figcaption>
+                    <h3>Jan Kowalski</h3>
+                    <h6 class="italic">Kierownik Konta</h6>
+                </figcaption>
+                <div class="col4">
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="col4">
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+                <div class="col4">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="img/team/man-2.jpg" alt="image 1">
+                <figcaption>
+                    <h3>Jan Kowalski</h3>
+                    <h6 class="italic">Programista</h6>
+                </figcaption>
+                <div class="col4">
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="col4">
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+                <div class="col4">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <img src="img/team/woman-1.jpg" alt="image 1">
+                <figcaption>
+                    <h3>Jan Kowalski</h3>
+                    <h6 class="italic">Kierownik Projektu</h6>
+                </figcaption>
+                <div class="col4">
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="col4">
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+                <div class="col4">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="w-100">
+                <h6 class="italic margines text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, perspiciatis provident maxime recusandae possimus pariatur sequi quaerat nostrum fugit. Illo.</h6>
+            </div>
+        </div>
+
+    </section>
+    <!--   koniec section team  -->
+    <!-- -------------------------------------------------------------------- -->
+    <!--   Poczatek section contact  -->
+    <section id="contact">
+
+        <div id="contactimg" class="container-fluid">
+            <div id="naglowki-contact">
+                <h1 class="text-center ">Kontakt</h1>
+                <h6 class="italic text-center">daj znac a my odpowiemy</h6>
+            </div>
+            <form action="https://formspree.io/your@email.com" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" placeholder="imie:">
+                        <input type="email" placeholder="email:">
+                        <input type="tel" placeholder="telefon:">
+                    </div>
+                    <div class="col-md-6">
+                        <textarea name="wiadomosc" placeholder="wiadomość:"></textarea>
+                    </div>
+                </div>
+                <div class="text-center"><button id="buttonform" type="submit" class="btn">Wyśli</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <!--   koniec section contact  -->
+    <!-- -------------------------------------------------------------------- -->
+    <!--   poczatek section footer  -->
+<section id="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="text-center">copytight Your Website</h5>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="col4">
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="col4">
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+                <div class="col4">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-center">Privacy Police Terms of Us</h5>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--   koniec section footer  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>       
+    <script src="js/main.js"></script>
 </body>
 </html>
