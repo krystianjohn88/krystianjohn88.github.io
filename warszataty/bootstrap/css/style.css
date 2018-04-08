@@ -1,0 +1,39 @@
+#c1, #c2{
+    height: 100px;
+    background-color: red;
+}
+
+#c2{
+    background-color: aqua;
+}
+
+.item{
+    height: 300px;
+    background-color: #ccc;
+}
+
+.item:nth-of-type(2){
+    background-color: blueviolet;
+}
+
+.item:nth-of-type(3){
+    background-color: yellow;
+}
+
+.item:nth-of-type(4){
+    background-color: chartreuse;
+}
+
+.item:nth-of-type(5){
+    background-color: black;
+}
+
+.item:nth-of-type(6){
+    background-color: burlywood;
+}
+
+/*   ccsss do typografia*/
+p{
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" >
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/fontawesome-all.css">
+     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+<!--   Poczatek section NAVIGACJA -->
+<section id="nawigacja" class="fixed-top">
+<nav id="main-nav" class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#header">Bootstrap Project</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">     
+       <span class="navbar-toggler-icon"></span>     
+       </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+             <a class="nav-link" href="#services">Services</a> 
+             </li>
+            <li class="nav-item"> 
+            <a class="nav-link" href="#portfolio">Portfolio</a> 
+            </li>
+            <li class="nav-item"> 
+            <a class="nav-link" href="#team">Team</a> 
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#contact">Contact</a>
+              </li>
+        </ul>
+    </div>
+</nav>
+</section>
+<!--  Koniec section NAVIGACJA-->
+<!-- -------------------------------------------------------------------- -->
+<!--   Poczatek section HEADER  -->
+    <section id="header">
+        <div class="col-12 headimg">
+            <div class="topcenter textcolor"><h3 class='text-center'>Bootstrap, css, js</h3>
+            <h1 class='text-center'>Portfolio najlepsze w internecie</h1>
+            <center><button onclick="przeniesienieDoServices" class="btn">Zobacz wiecej</button></center>
+            </div>
+        </div>
+        
+    </section>
+<!--   koniec section HEADER  -->  
+<!-- -------------------------------------------------------------------- --> 
+<!--   Poczatek section SERVICES  -->
+    <section id="services">
+        
+        <div id="services-text" class="col-12 text-center">
+            <h1>SERVICES</h1>
+            <h6 class="italic">Lorem ipsum dolor sit amet, consectetur.</h6>
+        </div>
+        <div class="row text-center w-100">
+        <div class="col-md-4">
+            <i class="fas fa-briefcase"></i>
+            <label for="teczka"><h3>Web Developer</h3><br><h5 class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti officiis vitae rem.</h5></label>
+        </div>
+        <div class="col-md-4">
+            <i class="fas fa-cloud-download-alt"></i>
+             <label for="teczka"><h3>E-Commerce</h3><br><h5 class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti officiis vitae rem.</h5></label>
+        </div>
+        <div class="col-md-4">
+            <i class="fas fa-comments"></i>
+             <label for="teczka"><h3>WEB Design</h3><br><h5 class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti officiis vitae rem.</h5></label>
+        </div>
+        </div>
+        
+        
+    </section>
+<!--   Koniec section SERVICES  -->
+<!-- -------------------------------------------------------------------- -->
+<!--   Poczatek section PORTFOLIO  -->
+    <section id="portfolio">
+<div class="container">
+  <div class="row">
+   <div class="col-12 text-center">
+    <h1>PORTFOLIO</h1>
+    <h6 class="italic">Lorem ipsum dolor sit amet.</h6>
+</div>
+   <div class="row">
+    <div class="col-md-4 ">
+       <div id="cos">
+        <div id="obrazek1">
+            <div class="maska">
+                <i class="fas fa-crosshairs topcenter"></i>
+            </div>
+        </div>
+        </div>
+        sdfsddsff lorem200
+   </div>
+    <div class="col-md-4">
+        <figure>
+			<img src="img/portfolio/typing_on_laptop.jpg" alt="image 1">
+			<figcaption>Obraz 1. </figcaption>
+		</figure>
+    </div>
+    <div class="col-md-4">
+        <figure>
+			<img src="img/portfolio/chaotic_paint.jpg" alt="image 1">
+			
+			<figcaption>Obraz 1.</figcaption>
+		</figure>
+    </div>
+    <div class="col-md-4">
+        <figure>
+			<img src="img/portfolio/chestnut_on_bracket.jpg" alt="image 1">
+			<figcaption>Obraz 1.</figcaption>
+		</figure>
+    </div>
+    <div class="col-md-4">
+        <figure>
+			<img src="img/portfolio/child_with_blue_paint.jpg" alt="image 1">
+			<figcaption>Obraz 1.</figcaption>
+		</figure>
+    </div>
+    <div class="col-md-4">
+        <figure>
+			<img src="img/portfolio/house_with_blue_doors.jpg" alt="image 1">
+			<figcaption>Obraz 1.</figcaption>
+		</figure>
+    </div>
+        
+    </div>
+</div>
+</div>
+
+    </section>
+<!--   koniec section PORFOLIO  -->
+<!-- -------------------------------------------------------------------- -->
+<!--   Poczatek section team  -->
+  <section id="team">
+      
+      
+  </section>
+<!--   koniec section team  -->
+<!-- -------------------------------------------------------------------- -->
+<!--   Poczatek section contact  -->
+  <section id="contact">
+      
+      
+  </section>
+  <!--   koniec section contact  -->
+   
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>     
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>       
+</body>
+</html>
