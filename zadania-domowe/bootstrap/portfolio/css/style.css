@@ -1,0 +1,306 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color:#291f1a;
+    margin: 0;
+    font-weight: 300px;
+}
+
+section{
+    padding:0 50px 50px;
+    width: 100%;
+    background-color: #f9fcfe;
+}
+
+section h2{
+    text-align: center;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.kolorgreen{
+    color: #1ac056;
+    font-weight: 400;
+}
+
+p{
+    line-height: 25px;
+}
+
+.topcenter{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+}
+
+/*--------------- Nawigacja--------------*/
+.navbar-default{
+    border: 0;
+}
+
+#nav a{
+    color: #1ac056;
+    text-decoration: none;
+}
+
+/*----------- header -------------------*/
+
+#main-header {
+    background-image: url(img/header-background.jpg);
+    background-size:cover;
+    color:#fff;
+    height: 100vh;
+}
+
+
+
+#main-header .header-content {
+    padding-top: 10vw;    
+}
+
+#main-header .header-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+#main-header span{
+    color: #1ac056;
+}
+
+#main-header .header-content h4{
+    font-weight: 200;
+    font-size: 30px;
+}
+
+/*   Poczatek sekcji about   */
+
+#about {
+    padding-top: 40px;
+}
+
+#about img{
+   max-height: 350px;
+    max-width: 100%;
+    border: 14px #fff solid;
+    border-radius: 15px;
+}
+
+
+/*    Koniec sekcji about   */
+
+/*   Poczatek sekcji skills  */
+
+#skills img{
+    padding: 30px;
+}
+
+
+
+
+
+/* koniec sekcji skills  */
+
+/*   Poczatek sekcji Portfolio  */
+
+
+#portfolio .col-md-4{
+    padding: 0;
+}
+
+#portfolio{
+    padding-top: 40px;
+}
+#portfolio .portfolio-items{
+    font-size: 0;
+    text-align: center;
+}
+
+.portfolio-item{
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    font-size:initial;
+}
+
+#portfolio .portfolio-items #portfolio-item-1{
+    background-image: url(img/portfolio1.jpg);
+    background-size: cover;
+    
+}
+
+#portfolio .portfolio-items #portfolio-item-2{
+    background-image: url(img/portfolio2.jpg);
+    background-size: cover;
+    
+}
+
+#portfolio .portfolio-items #portfolio-item-3{
+    background-image: url(img/portfolio3.jpg);
+    background-size: cover;
+    
+}
+
+#portfolio .portfolio-item-mask{
+    opacity: 0;
+    background-color: rgba(42,61,79,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+
+#portfolio .portfolio-item .portfolio-item-mask:hover{
+    opacity: 1;
+}
+
+#portfolio .mask-content{
+    border: 1px solid #fff;
+    margin: 10px;
+    position: relative;
+    height: 330px;
+}
+
+#portfolio .mask-content-inner {
+    color: #fff;
+    
+    
+}
+
+#portfolio .mask-content-inner h3{
+    margin-top: 15px;
+    margin-bottom: 15px;   
+}
+
+#portfolio .mask-content-inner h4{
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+#portfolio .mask-content-inner .fa-link:hover{
+    color: #1ac056;
+}
+/* koniec sekcji Potfolio   */
+
+/* Kontakt i Formularz*/
+
+#kontakt{
+    overflow: hidden;
+    color: #291f1a;
+    padding-bottom: 0;
+    margin: 0;
+    background-color: #213b50;
+}
+ #main-kontakt{
+    width: 100%;
+    margin: 0;
+}
+
+#kontakt-informacje{
+    width: 50%;
+    float: left;
+}
+
+#kontakt span{
+    color: #1ac056;
+}
+#kontakt h2 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    font-size: 30px;
+}
+#kontakt a{
+    color: #1ac056;
+}
+#kontakt h5 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+
+form {
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+form select, form input[type="text"], form input[type="tel"], form input[type="email"], form textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #2b4a64;
+    color: #fff;
+    border: #2b4a64 1px solid;
+    height: 45px;
+    display: block
+}
+form textarea {
+    height: 50px;
+    line-height: normal;
+}
+
+#kontakt input:hover, #kontakt textarea:hover{
+    background-color:#51728d;
+}
+
+::-webkit-input-placeholder {
+  color: lightgray;
+}
+
+#kontakt input:focus, #kontakt textarea:focus{
+    background-color: #51728d;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.button {
+    color: white;
+    background-color: green;  
+    border: 0px;
+    width: 80px;
+    height: 30px;
+    float: right;
+
+    
+}
+
+.button:hover {
+    background-color: greenyellow;
+}
+
+div #kontener-img figure{
+    display: inline-block;
+    padding-right: 20px; 
+    padding-bottom: 50px;
+}
+
+#footer{
+    color: white;
+    background-color: #162836;
+    border:0;
+}
+
+footer h6 {
+    margin-left: 50px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+div #kontener-img{
+    font-size: 25px;
+    color: white;
+}
