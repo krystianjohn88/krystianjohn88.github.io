@@ -1,84 +1,24 @@
-@media (max-width:800px) {
-   #main-nav label{
+@media (max-width:767px) {
+    .navbar label {
         display: block;
         text-align: right;
-        padding: 20px 40px;
+        padding: 13px 10px;
     }
-    
-    #main-nav ul {
+
+    .navbar ul {
         display: none;
     }
-    
-    #main-nav input:checked + ul {
+
+    .navbar input:checked + ul {
         display: block;
-       
+
     }
-    
-    
-    
-    #main-nav ul li{
-    display: block;
-    padding: 5px;
-}  
 
- #main-header {
-     height: 100vh;
-}   
-    
-#main-header .header-content h1{
-    font-size: 30px;
-}    
-    
-#main-header .header-content h4{
-    font-weight: 200;
-    font-size: 15px;
-}
-    
-/*   start section about   */
 
-#about figure{
-    width: 100%;
-    text-align: center;
-    margin: 0;
-}
 
-#about div{
-    width: 100%;
-}
- /*   koniec section about   */   
-    
-  /* start section Portfolio*/
-
-#skills .skills-icons figure {
-    display: block;
-    margin: 30px;
-}
-    /* koniec section Portfolio*/
-    
-    .portfolio-item{
-    height: 40vh;
-    display: block;
-    width: 100%;
-}
-    
-#portfolio .portfolio-item-mask{
-    
-    height: 40vh;
-}
-    
-#portfolio .mask-content{
-    height: 36vh;
-}
-    
-#portfolio .mask-content-inner {
-    font-size:3vw; 
-}
-    
-#kontakt, #main-kontakt, #kontakt-informacje, #kontakt-formularz{
-    width: 100%;
-}
-    #kontakt-formularz{
-        float:none;
+    .navbar ul li {
+        display: block;
+        padding: 5px;
+        text-align: right;
     }
-    
 }

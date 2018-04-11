@@ -46,9 +46,12 @@ p{
     border: 0;
 }
 
-#nav a{
+#nav a, .navbar label{
     color: #1ac056;
     text-decoration: none;
+}
+.navbar input, .navbar label {
+    display: none;
 }
 
 /*----------- header -------------------*/
