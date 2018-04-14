@@ -1,0 +1,36 @@
+@import "zmienne"; 
+@import "mixins";
+@import "global";
+
+
+nav{
+    background-color: $nav-bg-color;
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            display: inline-block;
+            a{
+                color: $link-color;
+            }
+        } 
+    }
+    color: $link-color;
+}
+
+div#container{
+    background-color: $nav-bg-color;
+    margin: 20px;
+    @include zaokreglenie($default-radius);
+    h2{
+        width: 80px;
+        @include centrowanie;
+    }
+}
+
+.header-caption {
+	@include absolute-center;
+}
+
+

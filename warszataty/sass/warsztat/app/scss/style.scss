@@ -1,0 +1,160 @@
+//@import "zmienne"; 
+//@import "mixins";
+//@import "global";
+//
+//
+//nav{
+//    background-color: $nav-bg-color;
+//    ul{
+//        margin: 0;
+//        padding: 0;
+//        list-style: none;
+//        li{
+//            display: inline-block;
+//            a{
+//                color: $link-color;
+//            }
+//        } 
+//    }
+//    color: $link-color;
+//}
+//
+//div#container{
+//    background-color: $nav-bg-color;
+//    margin: 20px;
+//    @include zaokreglenie($default-radius);
+//    h2{
+//        width: 80px;
+//        @include centrowanie;
+//    }
+//}
+//
+//.header-caption {
+//	@include absolute-center;
+//}
+//
+//
+@import "zmienne";
+@import "global";
+
+#numertelefonu{
+    display: inline-block;
+}
+section#header{
+    padding: 10px;
+    font-size: 0;
+    #telefon, #finanse {
+    display: inline-block;
+        text-align: center;
+    width: 50%;
+        h1{
+            font-size: 20px;
+            display: inline-block;
+        }
+        h3{
+            font-size: 10px;
+            font-weight: 200;
+            
+        }
+        h6{
+            font-size: 8px;
+            font-weight: 200;
+           
+        }
+        i{
+            font-size: 20px;
+            padding: 5px;
+            }
+        i.fa-university{
+            color: $color-span-fontassome;
+        }
+    }
+}
+
+section#header{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    #main-form{
+        display: inline-block;
+        position: absolute;
+        border: 0;
+        right: 150px;
+        top: 100px;
+        width: 260px; 
+        p{
+            margin-bottom: 15px;
+            font-size: 18px;
+            text-align: justify;
+        }
+        #main-form-table{
+            background-color: $bg-color-form;
+            padding-top: 15px;
+            p{
+                margin-left: 15px;
+                margin-right: 15px;
+                margin-bottom: 10px;
+                font-size: 13px;
+            }
+            input{
+                display: block;
+                margin-left: 15px;
+                margin-right: 15px;
+                margin-bottom: 10px;
+                height: 30px;
+                width: 230px;
+                color: $color-button-and-textinput;
+            }
+            input[type=textarea]{
+                height: 50px;
+            }
+            button{
+                margin-left: 15px;
+                margin-bottom: 10px;
+                height: 30px;
+                width: 80px;
+                background-color: $color-span-fontassome;
+                color: $color-button-and-textinput;
+                border: none;
+                font-weight: 600;
+                
+                
+            }
+        }
+        
+    }
+}
+span{
+    color: $color-span-fontassome;
+}
+
+section#footer{
+    height: 100px;
+}
+section#footer{
+    padding-top: 10px;
+    font-size: 0;
+    div{
+        font-size: 12px;
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        i{
+            display: block;
+            font-size: 40px;
+            color:$color-span-fontassome;
+        }
+        
+    }
+    div#stopka{
+            width: 100%;
+            padding-top: 10px; 
+        }
+}
+::-webkit-input-placeholder {
+    font-size: 12px;
+}
+
+

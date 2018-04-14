@@ -1,0 +1,20 @@
+@mixin centrowanie{
+    left: 0;
+        right: 0;
+        margin:0 auto;
+}
+
+@mixin absolute-center {
+	position: absolute;
+	transform: translateY(-50%);
+	top: 50%;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@mixin zaokreglenie($promien){
+    border: 1px dotted red;
+    border-radius: $promien;
+}

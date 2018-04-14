@@ -1,0 +1,14 @@
+@media (max-width:500px){
+    section#header #main-form{
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    section#header #telefon, section#header #finanse{
+        display: block;
+        width: 100%;
+    }
+    section#footer div{
+        display: block;
+        width: 100%;
+}
