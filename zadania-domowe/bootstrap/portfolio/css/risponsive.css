@@ -21,4 +21,12 @@
         padding: 5px;
         text-align: right;
     }
+    
+    #kontakt div, #kontakt h2{
+        text-align: center;
+    }
+    
+    #kontakt div #kontener-img figure{
+        padding-right: 0;
+    }
 }
