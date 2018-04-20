@@ -1,0 +1,32 @@
+@media (max-width:767px) {
+    .navbar label {
+        display: block;
+        text-align: right;
+        padding: 13px 10px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar input:checked + ul {
+        display: block;
+
+    }
+
+
+
+    .navbar ul li {
+        display: block;
+        padding: 5px;
+        text-align: right;
+    }
+    
+    #kontakt div, #kontakt h2{
+        text-align: center;
+    }
+    
+    #kontakt div #kontener-img figure{
+        padding-right: 0;
+    }
+}

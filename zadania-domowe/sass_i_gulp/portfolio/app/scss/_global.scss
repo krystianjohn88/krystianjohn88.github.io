@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body {
+    font-family: 'Lato', sans-serif;
+    color:#291f1a;
+    margin: 0;
+    font-weight: 300px;
+}
+section{
+    padding:0 50px 50px;
+    width: 100%;
+    background-color: #f9fcfe;
+        h2{
+            text-align: center;
+            margin-top: 0.83em;
+            margin-bottom: 0.83em;
+            font-weight: 300;
+            font-size: 30px;
+        }
+}
+
+.kolorgreen{
+    color: $color-green;
+    font-weight: 400;
+}
+
+p{
+    line-height: 25px;
+}
+.topcenter{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+}
+
+::-webkit-input-placeholder {
+  color: lightgray;
+}
