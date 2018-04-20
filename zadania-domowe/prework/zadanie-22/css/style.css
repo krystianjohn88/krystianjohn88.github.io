@@ -1,0 +1,10 @@
+p{
+    color:mediumaquamarine;
+}
+
+h1, h3{
+    background-color: yellow;
+}
+h1 + h3{
+    color: red;
+}
