@@ -1,0 +1,248 @@
+@import "zmienne"; 
+@import "mixins";
+@import "global";
+
+.main-nav{
+    
+    .conterner-nav{
+        
+    z-index: 1;
+        .nav {
+        background:$navfootcolor;
+        display:inline-block;
+        width:400px;
+        height:60px;
+        border-radius:8px;
+        transform:skew(-45deg, 0);
+        overflow:hidden;
+        box-shadow:5px 4px rgba(0,0,0,0.25);
+        position:absolute;
+        left:-60px;
+        z-index: 1;
+            .logo-text{
+            color: $maincolor;
+            position: relative;
+            left: 70px;
+            top: 1px;
+            transform:skew(+45deg);
+            }
+            .kolo{
+                position: absolute;
+                right: 10px;
+                width: 15px;
+                height: 15px;
+                background-color: rgb(233, 233, 233);
+                border-radius: 150px;
+                transform:skew(+45deg);
+                box-shadow:-2px -1px rgb(0, 0, 0);
+            }
+            .kolo1{
+                top: 5px; 
+            }
+            .kolo2{
+                top: 20px;
+            }
+            .kolo3{
+                top: 35px;
+            }
+            .kolo:hover{
+                background-color: $maincolor;
+            }
+        }
+        .right-side{
+            overflow: hidden;
+            position: absolute;
+            background-color: rgb(233, 233, 233);
+            height: 55px;
+            width: 100%;
+            box-shadow:5px 4px rgba(0,0,0,0.25);
+            .nav-list{
+                width: 430px;
+                margin-top: 0;
+                margin-bottom: 0;
+                position: absolute;
+                right: 0;
+                height: 55px;
+                padding: 0;  
+                li{
+                    display: inline-block;
+                    position: relative;
+                    right: 0;
+                    height: 55px;
+                    a{
+                        position: relative;
+                        color: black;
+                        text-decoration: none;
+                        top: 25px;
+                        transform:skew(-45deg, 0);
+                        
+                        display:inline-block;
+                        padding-left:18px;
+                        padding-right:18px;
+                        margin-right:-1px;
+                        background-color: rgb(233, 233, 233);
+                        background-size:301% 100%;
+                    }
+                    a:hover{
+                        
+                        background-color: $maincolor;
+                      
+                        }
+                    .link-text{
+                        transform:skew(45deg, 0);
+                    }
+                }
+            }
+        }
+    }
+}
+    
+    .contain{
+        background-image: url(../img/bg-pattern.png);
+        
+        margin-right: 60px;
+        margin-left: 60px;
+        margin-top:8px;
+        padding-top: 80px;
+        
+        .container-fluid{
+            
+            // position: relative;
+            // top: 90px;
+                .row{
+                            
+                    .line-left{
+                        padding: 0;
+                        height: 56px;
+                        .line{
+                            width: 100%;
+                            position: relative;
+                            height: 2px;
+                            background-color: $maincolor;
+                           
+                            
+                            top: 50%; 
+                            transform: translateY(-50%);
+                        }
+                        
+                    }
+                    .line-right{
+                        height: 56px;
+                        padding: 0;
+                        .line{
+                             width: 100%;
+                            position: relative;
+                            height: 2px;
+                            background-color: $maincolor;
+                            top: 50%; 
+                            transform: translateY(-50%);
+                        }   
+                        
+                    }
+                    
+                }
+                .row{
+                    
+                    .left{
+                        figure{
+                            img{
+                                width: 300px;
+                                height: 400px;
+                            }
+                        }
+                    }
+                    .right{
+
+                    }
+                }
+        }
+    }
+    .foot-nav{
+        height: 65px;
+        
+        .foot-conterner{
+            position: relative;
+            bottom:20px;
+            overflow: hidden;
+            .left-side{
+                overflow: hidden;
+                position: absolute;
+                background-color: rgb(233, 233, 233);
+                height: 65px;
+                bottom: 6px;
+                width: 100%;
+                box-shadow:-5px -4px rgba(0,0,0,0.25);
+                .nav-list{
+                    width: 430px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    position: absolute;
+                    left: 0;
+                    height: 65px;
+                    padding: 0;
+                    li{
+                        display: inline-block;
+                        position: relative;
+                        right: 0;
+                        height: 65px;
+                        a{
+                            position: relative;
+                            display: block;
+                            color: black;
+                            text-decoration: none;
+                            top: 25px;
+                            .link-text{
+                                // transform:skew(45deg, 0);
+                            }
+                    }
+                }
+            }
+        }
+            .foot-nav2 {
+                background:#312b2b;
+                display:inline-block;
+                bottom: 0;
+                width:400px;
+                height:80px;
+                border-radius:8px;
+                transform:skew(-45deg, 0);
+                overflow:hidden;
+                box-shadow:-5px -4px rgba(0,0,0,0.25);
+                position: relative;
+                left: 70%;
+                
+                
+                z-index: 1;
+                .logo-text{
+                    color: $maincolor;
+                    position: relative;
+                    left: 70px;
+                    top: 20px;
+                    transform:skew(+45deg);
+            
+                }
+                .kolo{
+                    position: absolute;
+                    left: 10px;
+                    width: 15px;
+                    height: 15px;
+                    background-color: rgb(233, 233, 233);
+                    border-radius: 150px;
+                    transform:skew(+45deg);
+                    box-shadow:-2px -1px rgb(0, 0, 0);
+                }
+                .kolo1{
+                    top: 30px; 
+                }
+                .kolo2{
+                    top: 45px;
+                }
+                .kolo3{
+                    top: 60px;
+                }
+                .kolo:hover{
+                    background-color: $maincolor;
+                }
+                }
+        }
+    }
